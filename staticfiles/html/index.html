@@ -1,0 +1,28 @@
+<head>
+    {% load static %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+<style>
+        div{background-image: url("staticfiles/HD.jpg");}
+    </style>
+</head>
+<body>
+    {% load static %}
+
+  <div class="navbar">
+    <nav >
+        <h2 class="logo">IOT</h2>
+
+            <ul>
+                   <li>  <a href="{% url 'table' %}" >Table</a></li>
+                    <li>  <a href="{% url 'charttemp' %}" >Chart Temp</a></li>
+                    <li>  <a href="{% url 'charthum' %}" >Chart Hum</a></li>
+                    <li>  <a href="{% url 'json' %}" >Json</a></li>
+
+            </ul>
+            <p> </p>
+
+
+    </nav>
+</div>
+
+</body>
