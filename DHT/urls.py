@@ -19,8 +19,7 @@ urlpatterns = [
     path('chart_data_mois/',views.chart_data_mois,name='chart_data_mois'),
     path('', views.home, name='home'),
     path('table/', views.table, name='table'),
-    path('', views.test, name='test'),
     path('api', api.Dlist, name='json'),
     path('ChartTemp/',views.graphiquetemp,name='myChartTemp'),
-path('ChartHum/',views.graphiquehum,name='myChartHum'),
+    path('ChartHum/',views.graphiquehum,name='myChartHum'),
 ]

@@ -2,7 +2,13 @@
 {% block i %}
 
 {% load static %}
-<div>
+
+<div style="
+    background-image: url('static/img.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <div  class="show-row">
         <h1>Dashboard/Table/Liste</h1>
@@ -75,4 +81,5 @@ xhr.send();
 
 </script>
     </div>
+
 {% endblock i %}
