@@ -1,11 +1,5 @@
 
-*{
-    background-image: url("static/img.png");
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+
 .show-row{
     text-align: center;
     position: relative;
